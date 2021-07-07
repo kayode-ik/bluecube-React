@@ -13,6 +13,7 @@
     list-style: none;
     padding-top: 0.1875rem;
     padding-bottom: 1rem;
+    z-index: 99;
 }
 
 .hr {
@@ -88,6 +89,6 @@
     border-right: 11px solid transparent;
     border-bottom: 11px solid white;
     top: -10px;
-    left: 50%;
+    left: 18%;
     transform: translateX(-50%);
 }
