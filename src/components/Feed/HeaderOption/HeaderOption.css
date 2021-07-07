@@ -1,0 +1,35 @@
+.headerOption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-right: 20px; */
+    color: #5146AB;
+    cursor: pointer;
+    padding: 10px;
+}
+.headerOption__title {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px;
+    font-family: poppins "sans-serif";
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.headerOption__icon {
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+}
+.headerOption__arrow{
+    height: 15px !important;
+    /* margin-right: -1px; */
+    width: 15px !important;
+}
+.img_header {
+    width: 30px;
+    height: 30px;
+}
+/* .headerOption:hover {
+    color:black;
+} */

@@ -1,0 +1,36 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* .sidebarOption:hover {
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--blue-color);
+    transition: color 100ms ease-out;
+} */
+.sidebarOption > .MuiSvgIcon-root {
+    padding: 20px;
+    color: lightcoral;
+}
+.sidebarOption--icon {
+    color: #433C93 !important;
+}
+
+.sidebarOption > h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+    color: lightcoral;
+}
+
+.sidebarOption--active {
+    /* color: var(--blue-color); */
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+}
+.sidebarOption--text {
+    
+    color: black !important;
+}
